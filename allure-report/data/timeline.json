@@ -1,0 +1,25 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "DESKTOP-L4P90DQ",
+    "children" : [ {
+      "name" : "1940-MainThread",
+      "children" : [ {
+        "name" : "根据产品编码修改商品价格",
+        "uid" : "659e52d5b47ee847",
+        "parentUid" : "541ae05482ef8c2153be7553938b870d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1594783166390,
+          "stop" : 1594783166986,
+          "duration" : 596
+        },
+        "flaky" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "541ae05482ef8c2153be7553938b870d"
+    } ],
+    "uid" : "5668a1753b0b02330af5b8dcb86a6d9e"
+  } ]
+}

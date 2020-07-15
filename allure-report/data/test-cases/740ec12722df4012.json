@@ -1,0 +1,60 @@
+{
+  "uid" : "740ec12722df4012",
+  "name" : "根据产品编码修改商品价格",
+  "fullName" : "test_case.user.xxx#test_rechange",
+  "historyId" : "16180c31ed161555f3a7605f40744bd0",
+  "time" : {
+    "start" : 1594783034777,
+    "stop" : 1594783034777,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "statusMessage" : "_pytest.fixtures.FixtureLookupError: ('db', <FixtureRequest for <Function test_rechange>>)",
+  "statusTrace" : "file D:\\softdata\\workspace\\api_allure_2006A\\test_case\\user\\xxx.py, line 8\n  @allure.feature(\"商品模块\")\n  @allure.story(\"商品价格\")\n  @allure.title(\"根据产品编码修改商品价格\")\n  def test_rechange(db):\nE       fixture 'db' not found\n>       available fixtures: cache, capfd, capfdbinary, caplog, capsys, capsysbinary, doctest_namespace, monkeypatch, pub_data, pytestconfig, record_property, record_testsuite_property, record_xml_attribute, recwarn, tmp_path, tmp_path_factory, tmpdir, tmpdir_factory\n>       use 'pytest --fixtures [testpath]' for help on them.\n\nD:\\softdata\\workspace\\api_allure_2006A\\test_case\\user\\xxx.py:8",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "商品模块"
+  }, {
+    "name" : "story",
+    "value" : "商品价格"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test_case.user"
+  }, {
+    "name" : "suite",
+    "value" : "xxx"
+  }, {
+    "name" : "subSuite"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-L4P90DQ"
+  }, {
+    "name" : "thread",
+    "value" : "9320-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_case.user.xxx"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "740ec12722df4012.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,28 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "test_case.user",
+    "children" : [ {
+      "name" : "xxx",
+      "children" : [ {
+        "children" : [ {
+          "name" : "根据产品编码修改商品价格",
+          "uid" : "659e52d5b47ee847",
+          "parentUid" : "324d60719d7912917b6ef9090f6e392d",
+          "status" : "passed",
+          "time" : {
+            "start" : 1594783166390,
+            "stop" : 1594783166986,
+            "duration" : 596
+          },
+          "flaky" : true,
+          "parameters" : [ ]
+        } ],
+        "uid" : "324d60719d7912917b6ef9090f6e392d"
+      } ],
+      "uid" : "a4ba08d99150692fb2acdd5739f96bfe"
+    } ],
+    "uid" : "839e63c0997ff71da2905b42d4044444"
+  } ]
+}

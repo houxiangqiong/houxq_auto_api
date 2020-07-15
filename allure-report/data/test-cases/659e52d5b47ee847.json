@@ -1,0 +1,84 @@
+{
+  "uid" : "659e52d5b47ee847",
+  "name" : "根据产品编码修改商品价格",
+  "fullName" : "test_case.user.xxx#test_rechange",
+  "historyId" : "16180c31ed161555f3a7605f40744bd0",
+  "time" : {
+    "start" : 1594783166390,
+    "stop" : 1594783166986,
+    "duration" : 596
+  },
+  "status" : "passed",
+  "flaky" : true,
+  "beforeStages" : [ {
+    "name" : "db",
+    "time" : {
+      "start" : 1594783166385,
+      "stop" : 1594783166385,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "商品价格"
+  }, {
+    "name" : "feature",
+    "value" : "商品模块"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test_case.user"
+  }, {
+    "name" : "suite",
+    "value" : "xxx"
+  }, {
+    "name" : "subSuite"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-L4P90DQ"
+  }, {
+    "name" : "thread",
+    "value" : "1940-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_case.user.xxx"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "740ec12722df4012",
+      "status" : "broken",
+      "statusDetails" : "_pytest.fixtures.FixtureLookupError: ('db', <FixtureRequest for <Function test_rechange>>)",
+      "time" : {
+        "start" : 1594783034777,
+        "stop" : 1594783034777,
+        "duration" : 0
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "659e52d5b47ee847.json",
+  "parameterValues" : [ ]
+}

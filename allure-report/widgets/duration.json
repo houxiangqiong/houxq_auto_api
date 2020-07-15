@@ -1,0 +1,11 @@
+[ {
+  "uid" : "659e52d5b47ee847",
+  "name" : "根据产品编码修改商品价格",
+  "time" : {
+    "start" : 1594783166390,
+    "stop" : 1594783166986,
+    "duration" : 596
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
